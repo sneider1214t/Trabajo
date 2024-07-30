@@ -39,5 +39,36 @@
 }
 .c2 > :nth-child(1){
     border-bottom: solid black;
+}
 
+.title_tovar{
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 18px 10px 10px 1px; 
+}
+
+.boton{
+    width: 40%;
+    height: 10%;
+    display: flex;
+    margin: 10px auto;
+    margin-top: 70%;
+}
+
+
+.boton :nth-child(1){
+    width: 30%;
+    height: 25%;
+    border: 1px solid;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.boton :nth-child(2){
+    width: 30%;
+    height: 25%;
+    border: 1px solid;
+    margin: auto;
+    border-radius: 10px;
 }
