@@ -43,7 +43,12 @@
     background-color: white;
     z-index: 1;
 }
-
+.c2 > :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 .title_tovar{
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
@@ -73,13 +78,7 @@
 }
 
 /* ---------------parte de quiceno------------------- */
-.container-quice{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-.container-quice > :nth-child(2){
+.c2 > :nth-child(2) > :nth-child(2){
     margin-top: 100px;
 }
 .semic{
@@ -97,10 +96,10 @@
     height: 8%;
     width: 80%;
 }
-.container-quice > :nth-child(2) .quicenito,
-.container-quice > :nth-child(3) .quicenito,
-.container-quice > :nth-child(4) .quicenito,
-.container-quice > :nth-child(5) .quicenito{
+.c2 > :nth-child(2) > :nth-child(2) .quicenito,
+.c2 > :nth-child(2) > :nth-child(3) .quicenito,
+.c2 > :nth-child(2) > :nth-child(4) .quicenito,
+.c2 > :nth-child(2) > :nth-child(5) .quicenito{
     border-right: solid black;
     height: 100%;
     width: 15%;
@@ -108,13 +107,13 @@
     justify-content: center;
     align-items: center;
 }
-.container-quice > :nth-child(3) .quicenito,
-.container-quice > :nth-child(5) .quicenito{
+.c2 > :nth-child(2) > :nth-child(3) .quicenito,
+.c2 > :nth-child(2) > :nth-child(5) .quicenito{
     border-right: none;
     border-left: solid black;
 }
-.container-quice > :nth-child(3),
-.container-quice > :nth-child(5){
+.c2 > :nth-child(2) > :nth-child(3),
+.c2 > :nth-child(2) > :nth-child(5){
     display: flex;
     justify-content: flex-end;
 }
