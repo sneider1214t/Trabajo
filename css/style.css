@@ -21,7 +21,6 @@
 .c1 > :nth-child(1){
     grid-row: span 2;
     border-right: solid black;
-
 }
 .c1 > :nth-child(4){
     grid-column: span 2;
@@ -30,6 +29,7 @@
 }
 .c1 > :nth-child(2){
     border-bottom: solid black;
+height: 100px;
 }
 
 .c2{
@@ -41,11 +41,28 @@
     border-bottom: solid black;
 
 }
-.c1 > :nth-child(2) > :nth-child(1){
-    width: 50px;
-    height: 50px;
-    border: 3px solid #ff5733 ;
-    border-radius: 50px;
-    margin-top: 2.5%;
-    margin-left: 660px;
+
+.c1 > :nth-child(1) > :nth-child(1){
+    width: 100px;
+    height:100px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 65px;
+}
+.c1 > :nth-child(1) > :nth-child(2){
+    width: 237px;
+height: 35px;
+border: 2px solid black;
+margin-top: 350px;
+}
+.c1 > :nth-child(1) > :nth-child(3){
+    width: 237px;
+    height: 35px;
+    border: 2px solid black
+}
+.c1 > :nth-child(1) > :nth-child(4){
+    width: 237px;
+    height: 35px;
+    border: 2px solid black
 }
