@@ -43,6 +43,35 @@
     background-color: white;
     z-index: 1;
 }
+
+.title_tovar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.boton{
+    width: 80%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.boton :nth-child(1){
+    width: 10%;
+    height: 80%;
+    border: 1px solid;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.boton :nth-child(2){
+    width: 10%;
+    height: 80%;
+    border: 1px solid;
+    margin: auto;
+    border-radius: 25px;
+}
+
 /* ---------------parte de quiceno------------------- */
 .container-quice{
     display: flex;
@@ -65,7 +94,7 @@
 }
 .quiceno-box{
     border: solid black;
-    height: 13%;
+    height: 8%;
     width: 80%;
 }
 .container-quice > :nth-child(2) .quicenito,
@@ -92,6 +121,6 @@
 .qiucenito2{
     border-radius: 50%;
     border: solid black;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
