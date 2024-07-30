@@ -36,8 +36,62 @@
     border-left: solid black;
     display: grid;
     grid-template-rows: 1fr 5fr;
+    position: relative;
 }
 .c2 > :nth-child(1){
     border-bottom: solid black;
-
+    background-color: white;
+    z-index: 1;
+}
+/* ---------------parte de quiceno------------------- */
+.container-quice{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-quice > :nth-child(2){
+    margin-top: 100px;
+}
+.semic{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -100%);
+    border-radius: 50%;
+    border: solid black;
+}
+.quiceno-box{
+    border: solid black;
+    height: 13%;
+    width: 80%;
+}
+.container-quice > :nth-child(2) .quicenito,
+.container-quice > :nth-child(3) .quicenito,
+.container-quice > :nth-child(4) .quicenito,
+.container-quice > :nth-child(5) .quicenito{
+    border-right: solid black;
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-quice > :nth-child(3) .quicenito,
+.container-quice > :nth-child(5) .quicenito{
+    border-right: none;
+    border-left: solid black;
+}
+.container-quice > :nth-child(3),
+.container-quice > :nth-child(5){
+    display: flex;
+    justify-content: flex-end;
+}
+.qiucenito2{
+    border-radius: 50%;
+    border: solid black;
+    width: 50px;
+    height: 50px;
 }
